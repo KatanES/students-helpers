@@ -17,8 +17,11 @@
     </section>
 
     <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+    <load src="partials/vite-promo.html" />
 
     <script type="module" src="/main.js"></script>
+    <!-- так підключаємо файли, які на одному рівні зі сторінкою, в даному випадку файл імпортів -->
+    <script type="module" src="./scripts/modal-oneBtn.js"></script>
+    <!-- точкове підключення скриптів, без проміжного імпорту -->
   </body>
 </html>
